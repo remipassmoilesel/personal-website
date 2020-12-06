@@ -15,5 +15,5 @@ aussi Ansible, SSH, Python et Bash.
 **Je documente** mes applications et mes travaux, pour qu'utilisateurs et développeurs n'aient plus besoin de
 moi une fois mon travail terminé.
 
-**Je suis féru de logiciels libres**, mon travail s'appuie en grande partie sur du logiciel libre, j'aimerais contribuer
-plus régulièrement.
+**Je suis féru de logiciels libres**, j'explore chaque jour de nouveaux outils et codes disponibles en ligne,
+j'aimerais contribuer plus régulièrement.

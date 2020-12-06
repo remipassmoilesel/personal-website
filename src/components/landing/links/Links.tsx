@@ -16,7 +16,7 @@ class Links extends Component<{}, {}> {
           </a>
         ))}
         <a onClick={this.scrollToPresentation}>
-          <Emojione text="Ou plus d'informations par là ⬇️" />
+          <Emojione text="Plus d'informations par ici ⬇️" />
         </a>
       </div>
     );

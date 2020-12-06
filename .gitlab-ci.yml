@@ -1,0 +1,10 @@
+image: registry.gitlab.com/remipassmoilesel/personal-website/build-image:0.7
+
+cache:
+  paths:
+    - node_modules/
+    - .npm-cache/
+
+build:
+  script:
+    - ./ci.sh

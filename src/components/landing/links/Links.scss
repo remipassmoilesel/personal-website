@@ -1,0 +1,13 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+
+  .label {
+    margin-bottom: 1rem;
+  }
+
+  a {
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,67 @@
+@import "normalize.css/normalize.css";
+
+@mixin mobile {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+
+html,
+body,
+#root {
+  font-size: 17px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+
+  @include mobile {
+    font-size: 25px;
+  }
+}
+
+#root {
+  margin: 0 20vw 20vh 20vw;
+
+  @include mobile {
+    margin: 0 5vw 20vh 5vw;
+  }
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 4rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 3rem;
+}
+
+::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(13deg, #d4daff 14%, #c7ceff 64%);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, #d4daff 14%, #c7ceff 64%);
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}

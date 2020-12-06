@@ -1,0 +1,13 @@
+.landing {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+
+  .tag-line {
+    font-size: 1.3rem;
+  }
+
+  .filler {
+    flex-grow: 1;
+  }
+}

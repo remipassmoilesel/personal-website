@@ -1,0 +1,18 @@
+from: markdown+emoji
+to: pdf
+
+input-files:
+  - src/content/cv-header.md
+  - src/content/professional-experiences.md
+  - src/content/education.md
+
+output-file: dist/cv.pdf
+
+pdf-engine: pdflatex
+
+variables:
+  fontfamily: arev
+  margin-left: 1.5cm
+  margin-right: 1.5cm
+  margin-top: 1.5cm
+  margin-bottom: 1.5cm

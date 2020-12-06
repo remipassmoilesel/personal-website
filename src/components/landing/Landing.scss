@@ -1,5 +1,13 @@
+@import "src/mixins";
+
 .landing {
   height: 90vh;
+
+  padding-top: 5rem;
+  @include mobile {
+    padding-top: 2rem;
+  }
+
   display: flex;
   flex-direction: column;
 

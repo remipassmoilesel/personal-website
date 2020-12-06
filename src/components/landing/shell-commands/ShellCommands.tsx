@@ -24,8 +24,10 @@ class ShellCommands extends Component<{}, State> {
   public render(): ReactNode {
     return (
       <div className={"shell-commands"}>
+        <div>$&nbsp;</div>
+        {/*This div is necessary for typing effect*/}
         <div>
-          $&nbsp;<span id={this.state.typeZoneSelector}></span>
+          <span id={this.state.typeZoneSelector} />
         </div>
       </div>
     );

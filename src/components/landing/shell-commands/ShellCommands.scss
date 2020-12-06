@@ -1,8 +1,10 @@
 .shell-commands {
+  height: 3.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+
+  margin-top: 2rem;
   font-family: monospace;
   font-size: 1.3rem;
-  margin: 4rem 0;
-
-  display: flex;
-  flex-direction: column;
 }

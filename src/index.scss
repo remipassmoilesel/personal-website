@@ -1,10 +1,5 @@
 @import "normalize.css/normalize.css";
-
-@mixin mobile {
-  @media (max-width: 1000px) {
-    @content;
-  }
-}
+@import "mixins";
 
 html,
 body,
@@ -12,10 +7,6 @@ body,
   font-size: 17px;
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif;
-
-  @include mobile {
-    font-size: 25px;
-  }
 }
 
 #root {
@@ -40,7 +31,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   margin-top: 4rem;
 }
 

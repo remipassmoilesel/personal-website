@@ -3,9 +3,8 @@
 set -e
 
 export CI=true
-npm config set cache .npm-cache
 
-npm install
+npm ci --cache .npm-cache --prefer-offline
 npm run format
 npm run build:frontend
 npm run build:pdf

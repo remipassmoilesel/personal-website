@@ -9,10 +9,10 @@ et notifie les membres de son entreprise.
 
 Technologies et tâches:
 
-- Développement Typescript, Express, Lerna
+- Développement backend Typescript, Express, Lerna
 - Dialogflow V2, Tensorflow JS
 - Conversations et interactions sous forme de code
-- Développement React, Jest, Cypress, ThreeJS
+- Développement frontend React, Redux, Jest, Cypress, ThreeJS
 - Base de données MongoDB
 - Docker, Google Kubernetes Engine, Alpine Linux
 - Intégration continue et revues de code strictes, avec Gitlab CI, Gitlab CI Kubernetes Executor
@@ -27,10 +27,10 @@ est d'encourager une conduite sûre et éco-responsable, en respectant la vie pr
 
 Technologies et tâches:
 
-- Développement Java, Spring, Maven, Vavr, Lombok, Mapstruct, PMD, Angular 7,8,9
-- Clusterisation de traitement de données avec JGroups et RabbitMQ
-- Développement Angular, Jasmine, Typescript, Leaflet
+- Développement backend Java, Spring, Maven, Vavr, Lombok, Mapstruct, PMD, Angular 7,8,9
+- Développement frontend Angular 9, Ngrx, Jasmine, Typescript, Leaflet
 - Tests end-to-end avec Cypress
+- Clusterisation de traitement de données avec JGroups et RabbitMQ
 - Bases de données MariaDB, PostgreSQL (Amazon RDS), Elasticsearch (Amazon ES)
 - Déploiement en Infrastructure as Code sur Amazon EKS (Kubernetes) avec Terraform et Helm
 - Intégration continue et revues de code stricte, avec Gitlab CI, Gitlab CI Kubernetes Executor, et scripting Python pour le déploiement

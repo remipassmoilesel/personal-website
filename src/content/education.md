@@ -2,7 +2,7 @@
 
 ### Master IC2A DCISS (Développement informatique)
 
-2017 - Unniversite Pierre Mendès France, Grenoble (38)
+2017 - Universite Pierre Mendès France, Grenoble (38)
 
 Master d'ingénierie informatique à l'université Grenoble Alpes. Mention Bien.
 

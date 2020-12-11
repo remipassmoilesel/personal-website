@@ -46,7 +46,7 @@ export const CLI_COMMANDS = [
   "java -jar target/scala-2.13/play-scala-seed_2.13-1.0-SNAPSHOT.jar",
   "mvn package -Pnative",
   "npx create-react-app frontend --template typescript",
-  "yay -S h2",
+  "yay -S intellij-idea-ultimate-edition",
   "tig show HEAD~2",
   "tig diff master",
   "mvn quarkus:dev",

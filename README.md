@@ -7,13 +7,20 @@
 See: [remi-pace.fr](https://remi-pace.fr)     
 
 
+Development:
+
+    $ npm install
+    $ npm start
+    $ npm run watch # For typecheck
+
+Then go to [http://localhost:1234/](http://localhost:1234/)
+
+
 Run CI:      
 
     $ ./ci.sh
     
 
-Start:        
+Full setup:
 
-    $ npm start
-    $ npm run watch
-
+    $ sudo pacman -S ansible pandoc texlive-most

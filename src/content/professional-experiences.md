@@ -10,7 +10,7 @@ et notifie les membres de son entreprise.
 Technologies et tâches:
 
 - Développement backend Typescript, Express, Lerna
-- Dialogflow V2, Tensorflow JS
+- Dialogflow V2 API
 - Conversations et interactions sous forme de code
 - Développement frontend React, Redux, Jest, Cypress, ThreeJS
 - Base de données MongoDB

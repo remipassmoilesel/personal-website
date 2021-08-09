@@ -67,7 +67,7 @@ Technologies et tâches:
 De juillet 2017 à Juin 2018, entreprise [Bee Buzziness](https://go.ub.stream/).
 
 Au sein d'une startup innovante spécialisée en dématérialisation de documents, développeur back-end intégré
-à l'équipe en charge de la clusterisation de l'infrastructure serveur:
+à l'équipe en charge de la clusterisation de l'infrastructure serveur.
 
 Technologies et tâches:
 

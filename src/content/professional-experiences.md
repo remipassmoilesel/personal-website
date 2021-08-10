@@ -13,6 +13,7 @@ Technologies et tâches:
 - Dialogflow V2 API
 - Conversations et interactions sous forme de code
 - Développement frontend React, Redux, Jest, Cypress, ThreeJS
+- Application mobile React Native, Expo EAS
 - Base de données MongoDB
 - Docker, Google Kubernetes Engine, Alpine Linux
 - Intégration continue et revues de code strictes, avec Gitlab CI, Gitlab CI Kubernetes Executor

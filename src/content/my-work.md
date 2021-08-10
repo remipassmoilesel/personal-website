@@ -18,4 +18,5 @@ moi une fois mon travail terminé.
 **Je suis féru de logiciels libres**, j'explore chaque jour de nouveaux outils et codes disponibles en ligne,
 j'aimerais contribuer plus régulièrement.
 
-Ces temps-ci, je travaille sur [Abc-Map](https://abc-map.fr).
+Ces temps-ci, je travaille sur [Abc-Map](https://abc-map.fr). Le fonctionnement du logiciel est
+[expliqué en vidéo 📹 (5 minutes)](https://www.youtube.com/watch?v=bXl3Uq5fU34).

@@ -21,7 +21,7 @@ Technologies et tâches:
 
 ### Projet Flotte Connectée
 
-De Janvier 2018 à Janvier 2020, entreprises [Believe IT](https://believeit.fr/) et [Groupama Support et Services](https://www.groupama.com/fr/fiche/groupama-supports-et-services/https://www.groupama.com/fr/fiche/groupama-supports-et-services/)
+De Janvier 2019 à Décembre 2021, entreprises [Believe IT](https://believeit.fr/) et [Groupama Support et Services](https://www.groupama.com/fr/fiche/groupama-supports-et-services/https://www.groupama.com/fr/fiche/groupama-supports-et-services/)
 
 Logiciel de gestion de flotte de véhicules pour Groupama Support et Services. L'objectif de Flotte Connectée
 est d'encourager une conduite sûre et éco-responsable, en respectant la vie privée des utilisateurs.

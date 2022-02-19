@@ -4,8 +4,7 @@
 <img alt="pipeline status" src="https://gitlab.com/remipassmoilesel/personal-website/badges/master/pipeline.svg" />
 </a>
 
-See: [remi-pace.fr](https://remi-pace.fr)     
-
+See: [remi-pace.fr](https://remi-pace.fr)
 
 Development:
 
@@ -15,12 +14,14 @@ Development:
 
 Then go to [http://localhost:1234/](http://localhost:1234/)
 
-
-Run CI:      
+Run CI:
 
     $ ./ci.sh
-    
 
 Full setup:
 
     $ sudo pacman -S ansible pandoc texlive-most
+
+Deployment:
+
+    $ yarn run deploy

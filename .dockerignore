@@ -1,0 +1,7 @@
+.cache
+.gitlab
+.idea
+.npm-cache
+node_modules
+scripts
+src

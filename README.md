@@ -21,7 +21,3 @@ Run CI:
 Full setup:
 
     $ sudo pacman -S ansible pandoc texlive-most
-
-Deployment:
-
-    $ yarn run deploy

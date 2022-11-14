@@ -15,12 +15,15 @@ export function Landing() {
 
   return (
     <div className={styles.landing}>
-      <h1>{t("Hello")}</h1>
-      <Terminal><div>Hello !</div></Terminal>
-      <div style={{ display: "flex" }}>
-        {t("My_name_is_remi_i_am_developer")}
-        <Twemoji className={styles.tagLine} text="👷 💻 " />
-      </div>
+      <Terminal>
+        <div style={{ display: "flex" }}>
+          {t("My_name_is_remi_i_am_developer")}
+          <Twemoji className={styles.tagLine} text="👷 💻 " />
+        </div>
+
+        <div>Hum hum</div>
+      </Terminal>
+
 
       <ShellCommands />
       <div className={styles.filler} />

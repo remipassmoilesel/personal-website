@@ -1,12 +1,23 @@
+@import "src/mixins";
 
 .window {
+  width: 55vw;
+  height: 55vh;
+  @include small-device {
+    width: 90vw;
+    height: 90vh;
+  }
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: stretch;
+
+  border-radius: 0.3rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #888888;
+
   font-family: monospace;
-  width: 600px;
-  margin: 75px auto;
   background: #2c3e50;
-  height: 350px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px #888888;
 }
 
 .topBar {
@@ -15,7 +26,7 @@
 
   padding: 0 0.8rem;
 
-  height: 40px;
+  height: 2.5rem;
   top: 0;
 
   .title {
@@ -25,11 +36,10 @@
   }
 
   .button {
-    width: 15px;
-    height: 15px;
+    width: 0.9rem;
+    height: 0.9rem;
     border-radius: 50%;
-    float: right;
-    margin: 13px 4px;
+    margin: 0.3rem;
     border: none;
   }
 
@@ -47,10 +57,10 @@
 }
 
 .content {
-  width: 600px;
+  height: 100%;
+  padding: 1rem;
+
+  border-radius: 0.3rem;
   background: #34495e;
-  height: 310px;
-  border-radius: 5px;
-  top: 40px;
   color: #fff;
 }

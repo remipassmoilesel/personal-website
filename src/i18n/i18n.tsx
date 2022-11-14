@@ -1,9 +1,9 @@
-import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import log from "loglevel";
-import LanguageDetector from "i18next-browser-languagedetector";
-import en from "./en.json";
-import fr from "./fr.json";
+import i18n from 'i18next'
+import { initReactI18next } from 'react-i18next'
+import log from 'loglevel'
+import LanguageDetector from 'i18next-browser-languagedetector'
+import en from './en.json'
+import fr from './fr.json'
 
 i18n
   .use(LanguageDetector)
@@ -11,9 +11,9 @@ i18n
   .init({
     resources: { en, fr },
     debug: !!process.env.DEBUG,
-    fallbackLng: "en",
+    fallbackLng: 'en',
     interpolation: {
-      escapeValue: false,
-    },
+      escapeValue: false
+    }
   })
-  .catch((err) => log.error("I18n init failed: ", err));
+  .catch((err) => log.error('I18n init failed: ', err))

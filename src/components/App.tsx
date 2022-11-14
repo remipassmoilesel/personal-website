@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 import { Terminal } from './terminal/Terminal'
 
 export function App () {
-  const [t, i18n] = useTranslation()
+  const [t, i18n] = useTranslation('App')
 
   useEffect(() => {
     document.title = t('Remi_Pace_developer')

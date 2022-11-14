@@ -10,7 +10,7 @@ interface Props {
 
 export function Links (props: Props) {
   const { className } = props
-  const [t] = useTranslation()
+  const [t] = useTranslation('Links')
 
   return (
     <div className={clsx(styles.container, className)}>

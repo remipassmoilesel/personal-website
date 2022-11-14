@@ -1,24 +1,29 @@
-import React, { Component, ReactNode } from "react";
+import "./Landing.scss";
+import React, {useEffect} from "react";
 import ShellCommands from "./shell-commands/ShellCommands";
 import Links from "./links/Links";
 import { Twemoji } from "react-emoji-render";
-import "./Landing.scss";
+import {useTranslation} from "react-i18next";
 
-class Landing extends Component<{}, {}> {
-  public render(): ReactNode {
-    return (
-      <div className={"landing"}>
-        <h1>Salut !</h1>
+export function Landing(){
+  const [t, i18n] = useTranslation('Landing');
+
+  useEffect(() => { document.title = t('Remi_Pace_developer') }, [i18n.language]);
+
+  return (
+    <div className={"landing"}>
+      <h1>{t('Hello')}</h1>
+      <div style={{display: 'flex'}}>
+        {t('My_name_is_remi_i_am_developer')}
         <Twemoji
           className={"tag-line"}
-          text="Je m'appelle Rémi, je suis développeur 👷 💻 "
+          text="👷 💻 "
         />
-        <ShellCommands />
-        <div className={"filler"} />
-        <Links />
       </div>
-    );
-  }
-}
 
-export default Landing;
+      <ShellCommands />
+      <div className={"filler"} />
+      <Links />
+    </div>
+  );
+}

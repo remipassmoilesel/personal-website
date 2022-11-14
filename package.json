@@ -6,7 +6,7 @@
   "license": "GPL-3.0",
   "author": "Rémi Passmoilesel <r.passmoilesel@protonmail.com>",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "DEBUG=true parcel src/index.html",
     "watch": "tsc --noEmit -w",
     "format": "npm-run-all format:*",
     "format:code": "prettier --write src",
@@ -18,11 +18,15 @@
   },
   "dependencies": {
     "content": "^4.0.6",
+    "i18next": "^22.0.5",
+    "i18next-browser-languagedetector": "^7.0.1",
     "lodash": "^4.17.21",
+    "loglevel": "^1.8.1",
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-emoji-render": "^1.2.4",
+    "react-i18next": "^12.0.0",
     "react-markdown": "^8.0.3",
     "typed.js": "^2.0.12",
     "uuid": "^9.0.0"

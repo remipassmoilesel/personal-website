@@ -2,11 +2,11 @@ from: markdown+emoji
 to: pdf
 
 input-files:
-  - src/content/cv-header.md
-  - src/content/professional-experiences.md
-  - src/content/education.md
+  - src/content/fr/cv-header.md
+  - src/content/fr/professional-experiences.md
+  - src/content/fr/education.md
 
-output-file: dist/cv.pdf
+output-file: dist/cv-fr.pdf
 
 pdf-engine: pdflatex
 

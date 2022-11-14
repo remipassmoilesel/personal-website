@@ -6,5 +6,5 @@ export CI=true
 
 npm ci --cache .npm-cache --prefer-offline
 npm run format
-npm run build:frontend
-npm run build:pdf
+npm run build
+

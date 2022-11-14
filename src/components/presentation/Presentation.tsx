@@ -1,22 +1,18 @@
 import React, { Component, ReactNode } from "react";
-import { readFileSync } from "fs";
 import ReactMarkdown from "react-markdown";
 import "./Presentation.scss";
+import content1 from "bundle-text:../../content/fr/my-work.md";
+import content2 from "bundle-text:../../content/fr/beliefs.md";
+import content3 from "bundle-text:../../content/fr/professional-experiences.md";
+import content4 from "bundle-text:../../content/fr/education.md";
 
-// Parcel will include these files at build time
-const mdRoot = `src/content`;
-const mdContent = [
-  readFileSync(`${mdRoot}/my-work.md`, "utf-8"),
-  readFileSync(`${mdRoot}/beliefs.md`, "utf-8"),
-  readFileSync(`${mdRoot}/professional-experiences.md`, "utf-8"),
-  readFileSync(`${mdRoot}/education.md`, "utf-8"),
-];
+console.log([content1, content2, content3, content4]);
 
 class Presentation extends Component<{}, {}> {
   public render(): ReactNode {
     return (
       <div className={"presentation"}>
-        {mdContent.map((ctn, i) => (
+        {[content1, content2, content3, content4].map((ctn, i) => (
           <ReactMarkdown key={i}>{ctn}</ReactMarkdown>
         ))}
       </div>

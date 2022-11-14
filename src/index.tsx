@@ -1,13 +1,19 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import Landing from "./components/landing/Landing";
 import Presentation from "./components/presentation/Presentation";
 import "./index.scss";
 
-ReactDOM.render(
+const container = document.getElementById("root");
+if (!container) {
+  throw new Error("Not ready !");
+}
+
+const root = createRoot(container);
+
+root.render(
   <>
     <Landing />
     <Presentation />
-  </>,
-  document.getElementById("root")
+  </>
 );

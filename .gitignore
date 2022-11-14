@@ -1,8 +1,6 @@
-.idea
-node_modules
-deprecated
 .cache
-dist
-*.log
+.idea
 .npm-cache
-ansible/inventory.cfg
+.parcel-cache
+dist
+node_modules

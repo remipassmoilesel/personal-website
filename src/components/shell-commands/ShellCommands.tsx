@@ -36,7 +36,7 @@ export function ShellCommands (props: Props) {
       </div>
 
       <div className={styles.prompt}>
-        <div>$</div>
+        <div>$&nbsp;</div>
 
         {/* This div is necessary for typing effect */}
         <div>

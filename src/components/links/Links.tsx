@@ -1,5 +1,5 @@
 import React from 'react'
-import { LINKS } from './links'
+import { linkDefs } from './linkDefs'
 import * as styles from './Links.module.scss'
 import clsx from 'clsx'
 import { useTranslation } from 'react-i18next'
@@ -11,7 +11,8 @@ interface Props {
 
 export function Links (props: Props) {
   const { className } = props
-  const [t] = useTranslation('Links')
+  const [t, i18n] = useTranslation('Links')
+  const lang: 'en' | 'fr' = i18n.language === 'fr' ? 'fr' : 'en'
 
   return (
     <div className={clsx(styles.container, className)}>
@@ -27,7 +28,7 @@ export function Links (props: Props) {
 
       <div className={styles.tagLine}>{t('Want_to_see_more')}</div>
 
-      {LINKS.map((link) => (
+      {linkDefs(lang).map((link) => (
         <div key={link.target} className={styles.link}>
           *&nbsp;
           <a href={link.target} target={'_blank'} rel="noreferrer">

@@ -17,7 +17,7 @@ export function App () {
     <div className={styles.app}>
       <Terminal>
         <div className={styles.tagLine1}>
-          {t('Hello')}&nbsp;<Twemoji className={styles.tagLine} text='👋' />
+          {t('Hello')}&nbsp;<Twemoji text='👋' />
         </div>
 
         <div className={styles.tagLine1}>

@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react'
-import styles from './Terminal.module.scss'
+import * as styles from './Terminal.module.scss'
 import clsx from 'clsx'
 import { useTranslation } from 'react-i18next'
 

@@ -13,8 +13,8 @@
     "lint:packagejson": "sort-package-json",
     "build": "npm-run-all build:frontend build:pdf:*",
     "build:frontend": "tsc --noEmit && parcel build src/index.html",
-    "build:pdf:en": "pandoc --defaults pandoc-en.yaml",
-    "build:pdf:fr": "pandoc --defaults pandoc-fr.yaml"
+    "build:pdf:en": "pandoc --defaults cv/pandoc-en.yaml",
+    "build:pdf:fr": "pandoc --defaults cv/pandoc-fr.yaml"
   },
   "dependencies": {
     "clsx": "^1.2.1",

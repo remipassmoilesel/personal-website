@@ -1,9 +1,9 @@
-interface Link {
+interface LinkDef {
   target: string
   i18nLabel: string
 }
 
-export const LINKS: Link[] = [
+export const linkDefs = (lang: 'fr' | 'en'): LinkDef[] => [
   {
     i18nLabel: 'Github_profile',
     target: 'https://github.com/remipassmoilesel'
@@ -18,6 +18,6 @@ export const LINKS: Link[] = [
   },
   {
     i18nLabel: 'Curriculum_vitæ_pdf',
-    target: '/cv.pdf'
+    target: `/cv-${lang}.pdf`
   }
 ]

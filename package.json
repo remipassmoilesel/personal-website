@@ -6,13 +6,14 @@
   "license": "GPL-3.0",
   "author": "Rémi Passmoilesel <r.passmoilesel@protonmail.com>",
   "scripts": {
-    "start": "DEBUG=true parcel src/index.html",
+    "start": "DEBUG=true parcel src/index.html --host 0.0.0.0",
     "watch": "tsc --noEmit -w",
     "lint": "npm-run-all lint:*",
     "lint:code": "eslint --fix './src/**/{*.tsx,*.ts}' --max-warnings=0",
     "lint:style": "prettier --write 'src/**/*.scss'",
     "lint:packagejson": "sort-package-json",
-    "build": "npm-run-all build:frontend build:pdf:*",
+    "build": "npm-run-all build:clean build:frontend build:pdf:*",
+    "build:clean": "rm -rf dist",
     "build:frontend": "tsc --noEmit && parcel build src/index.html",
     "build:pdf:en": "pandoc --defaults cv/pandoc-en.yaml",
     "build:pdf:fr": "pandoc --defaults cv/pandoc-fr.yaml"

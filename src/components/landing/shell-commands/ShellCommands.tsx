@@ -1,39 +1,20 @@
-import React, { Component, ReactNode, RefObject } from "react";
+import React, {useEffect, useMemo} from "react";
 import Typed from "typed.js";
-import { CLI_COMMANDS } from "./commands";
+import {CLI_COMMANDS} from "./commands";
 import _ from "lodash";
 import * as uuid from "uuid";
-import "./ShellCommands.scss";
+import * as styles from "./ShellCommands.module.scss";
+import clsx from "clsx";
 
-interface State {
-  typeZoneSelector: string;
-  typed?: Typed;
+interface Props {
+  className?: string;
 }
 
-class ShellCommands extends Component<{}, State> {
-  private divRef?: RefObject<HTMLDivElement>;
+export function ShellCommands(props: Props) {
+  const {className} = props;
+  const typeZoneSelector = useMemo(() => `type-zone-${uuid.v4()}`, []);
 
-  constructor(props: {}) {
-    super(props);
-    this.state = {
-      typeZoneSelector: `type-zone-${uuid.v4()}`,
-    };
-    this.divRef = React.createRef<HTMLDivElement>();
-  }
-
-  public render(): ReactNode {
-    return (
-      <div className={"shell-commands"}>
-        <div>$&nbsp;</div>
-        {/*This div is necessary for typing effect*/}
-        <div>
-          <span id={this.state.typeZoneSelector} />
-        </div>
-      </div>
-    );
-  }
-
-  public componentDidMount() {
+  useEffect(() => {
     const commands = _.shuffle(CLI_COMMANDS);
     const options = {
       strings: commands,
@@ -42,13 +23,26 @@ class ShellCommands extends Component<{}, State> {
       loop: true,
     };
 
-    const typed = new Typed(`#${this.state.typeZoneSelector}`, options);
-    this.setState((st) => ({ ...st, typed }));
-  }
+    const typed = new Typed(`#${typeZoneSelector}`, options);
+    return () => typed.destroy();
+  }, []);
 
-  public componentWillUnmount() {
-    this.state.typed?.destroy();
-  }
+  return (
+    <div className={clsx(styles.container, className)}>
+      <div>
+        <span className={styles.username}>remi@</span><span className={styles.host}>production-17</span>: <span
+        className={styles.pwd}>/srv/</span>
+      </div>
+
+      <div className={styles.prompt}>
+        <div>$</div>
+
+        {/*This div is necessary for typing effect*/}
+        <div>
+          <span id={typeZoneSelector}/>
+        </div>
+      </div>
+    </div>
+  );
+
 }
-
-export default ShellCommands;

@@ -13,7 +13,15 @@
 }
 
 .tagLine {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
   font-size: 1.3rem;
+}
+
+.commands {
+  margin: 2rem 0;
 }
 
 .filler {

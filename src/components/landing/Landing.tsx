@@ -1,9 +1,9 @@
 import * as styles from "./Landing.module.scss";
-import React, { useEffect } from "react";
-import ShellCommands from "./shell-commands/ShellCommands";
+import React, {useEffect} from "react";
+import {ShellCommands} from "./shell-commands/ShellCommands";
 import Links from "./links/Links";
-import { Twemoji } from "react-emoji-render";
-import { useTranslation } from "react-i18next";
+import {Twemoji} from "react-emoji-render";
+import {useTranslation} from "react-i18next";
 import {Terminal} from "./terminal/Terminal";
 
 export function Landing() {
@@ -16,18 +16,20 @@ export function Landing() {
   return (
     <div className={styles.landing}>
       <Terminal>
-        <div style={{ display: "flex" }}>
-          {t("My_name_is_remi_i_am_developer")}
-          <Twemoji className={styles.tagLine} text="👷 💻 " />
+        <div className={styles.tagLine}>
+          <div>
+            {t("My_name_is_remi")}&nbsp;
+          </div>
+          <div>
+            {t("I_am_developer")}&nbsp;
+            <Twemoji text="👷 💻"/>
+          </div>
         </div>
 
-        <div>Hum hum</div>
+        <ShellCommands className={styles.commands}/>
+
+        <Links/>
       </Terminal>
-
-
-      <ShellCommands />
-      <div className={styles.filler} />
-      <Links />
     </div>
   );
 }

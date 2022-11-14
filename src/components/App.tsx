@@ -16,11 +16,11 @@ export function App () {
   return (
     <div className={styles.app}>
       <Terminal>
-        <div className={styles.tagLine1}>
-          {t('Hello')}&nbsp;<Twemoji text='👋' />
+        <div className={styles.tagLine}>
+          <div>{t('Hello')}&nbsp;<Twemoji text='👋' /></div>
         </div>
 
-        <div className={styles.tagLine1}>
+        <div className={styles.tagLine}>
           <div>{t('My_name_is_remi')}&nbsp;</div>
 
           <div>

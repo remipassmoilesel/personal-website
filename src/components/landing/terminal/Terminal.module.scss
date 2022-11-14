@@ -1,0 +1,56 @@
+
+.window {
+  font-family: monospace;
+  width: 600px;
+  margin: 75px auto;
+  background: #2c3e50;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 10px #888888;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+
+  padding: 0 0.8rem;
+
+  height: 40px;
+  top: 0;
+
+  .title {
+    flex-grow: 1;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    float: right;
+    margin: 13px 4px;
+    border: none;
+  }
+
+  .close {
+    background: #e74c3c;
+  }
+
+  .maximize {
+    background: #f1c40f;
+  }
+
+  .minimize {
+    background: #2ecc71;
+  }
+}
+
+.content {
+  width: 600px;
+  background: #34495e;
+  height: 310px;
+  border-radius: 5px;
+  top: 40px;
+  color: #fff;
+}

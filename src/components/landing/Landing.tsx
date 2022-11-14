@@ -4,6 +4,7 @@ import ShellCommands from "./shell-commands/ShellCommands";
 import Links from "./links/Links";
 import { Twemoji } from "react-emoji-render";
 import { useTranslation } from "react-i18next";
+import {Terminal} from "./terminal/Terminal";
 
 export function Landing() {
   const [t, i18n] = useTranslation("Landing");
@@ -15,6 +16,7 @@ export function Landing() {
   return (
     <div className={styles.landing}>
       <h1>{t("Hello")}</h1>
+      <Terminal><div>Hello !</div></Terminal>
       <div style={{ display: "flex" }}>
         {t("My_name_is_remi_i_am_developer")}
         <Twemoji className={styles.tagLine} text="👷 💻 " />

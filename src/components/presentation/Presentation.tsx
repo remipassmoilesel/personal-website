@@ -6,8 +6,6 @@ import content2 from "bundle-text:../../content/fr/beliefs.md";
 import content3 from "bundle-text:../../content/fr/professional-experiences.md";
 import content4 from "bundle-text:../../content/fr/education.md";
 
-console.log([content1, content2, content3, content4]);
-
 class Presentation extends Component<{}, {}> {
   public render(): ReactNode {
     return (

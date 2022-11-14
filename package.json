@@ -12,9 +12,11 @@
     "lint:code": "eslint --fix './src/**/{*.tsx,*.ts}' --max-warnings=0",
     "lint:style": "prettier --write 'src/**/*.scss'",
     "lint:packagejson": "sort-package-json",
-    "build": "npm-run-all build:clean build:frontend build:pdf:*",
+    "bundle-analyze": "parcel build src/index.html --detailed-report --reporter @parcel/reporter-bundle-analyzer",
+    "build": "npm-run-all build:clean build:type-check build:frontend build:pdf:*",
     "build:clean": "rm -rf dist",
-    "build:frontend": "tsc --noEmit && parcel build src/index.html",
+    "build:type-check": "tsc --noEmit",
+    "build:frontend": "parcel build src/index.html --detailed-report",
     "build:pdf:en": "pandoc --defaults cv/pandoc-en.yaml",
     "build:pdf:fr": "pandoc --defaults cv/pandoc-fr.yaml"
   },
@@ -35,6 +37,7 @@
   },
   "devDependencies": {
     "@mixer/parallel-prettier": "^2.0.3",
+    "@parcel/reporter-bundle-analyzer": "^2.8.0",
     "@parcel/transformer-html": "^2.8.0",
     "@parcel/transformer-inline-string": "^2.8.0",
     "@parcel/transformer-sass": "^2.8.0",

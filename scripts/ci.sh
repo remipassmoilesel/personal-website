@@ -5,6 +5,6 @@ set -e
 export CI=true
 
 npm ci --cache .npm-cache --prefer-offline
-npm run format
+npm run lint
 npm run build
 

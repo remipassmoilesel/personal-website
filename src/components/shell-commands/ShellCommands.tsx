@@ -31,7 +31,7 @@ export function ShellCommands (props: Props) {
     <div className={clsx(styles.container, className)}>
       <div>
         <span className={styles.username}>remi@</span>
-        <span className={styles.host}>production-17</span>:{' '}
+        <span className={styles.host}>europe-west4-a</span>:{' '}
         <span className={styles.pwd}>/srv/</span>
       </div>
 

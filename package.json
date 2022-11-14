@@ -8,9 +8,9 @@
   "scripts": {
     "start": "DEBUG=true parcel src/index.html",
     "watch": "tsc --noEmit -w",
-    "format": "npm-run-all format:*",
-    "format:code": "eslint --fix './src/**/{*.tsx,*.ts}' --max-warnings=0 && pprettier --write 'src/**/*.scss'",
-    "format:packagejson": "sort-package-json",
+    "lint": "npm-run-all lint:*",
+    "lint:code": "eslint --fix './src/**/{*.tsx,*.ts}' --max-warnings=0 && pprettier --write 'src/**/*.scss'",
+    "lint:packagejson": "sort-package-json",
     "build": "npm-run-all build:frontend build:pdf:*",
     "build:frontend": "tsc --noEmit && parcel build src/index.html",
     "build:pdf:en": "pandoc --defaults pandoc-en.yaml",

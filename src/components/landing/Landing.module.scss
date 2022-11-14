@@ -10,12 +10,12 @@
 
   display: flex;
   flex-direction: column;
+}
 
-  .tag-line {
-    font-size: 1.3rem;
-  }
+.tagLine {
+  font-size: 1.3rem;
+}
 
-  .filler {
-    flex-grow: 1;
-  }
+.filler {
+  flex-grow: 1;
 }

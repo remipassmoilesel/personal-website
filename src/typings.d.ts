@@ -7,3 +7,8 @@ declare module "*.json" {
   const content: any;
   export = content;
 }
+
+declare module "*.scss" {
+  const content: { [k: string]: string };
+  export = content;
+}

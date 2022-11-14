@@ -32,6 +32,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@parcel/transformer-html": "^2.8.0",
     "@parcel/transformer-inline-string": "^2.8.0",
     "@parcel/transformer-sass": "^2.8.0",
     "@types/lodash": "^4.14.188",

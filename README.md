@@ -27,3 +27,4 @@ Full setup:
 - simplify content
 - two languages
 - Web VCS styling (Github ?) 
+- See: https://codepen.io/adnanov/pen/QKjMgb

@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .tagLine {
+    margin-bottom: 1rem;
+  }
+
+  .link {
+    margin-left: 1rem;
+  }
+}

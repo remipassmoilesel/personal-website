@@ -1,27 +1,23 @@
 interface Link {
   target: string;
-  label: string;
+  i18nLabel: string;
 }
 
 export const LINKS: Link[] = [
   {
-    label: "Mon profil Github",
+    i18nLabel: "Github_profile",
     target: "https://github.com/remipassmoilesel",
   },
   {
-    label: "Mon profil Gitlab",
+    i18nLabel: "Gitlab_profile",
     target: "https://gitlab.com/remipassmoilesel",
   },
   {
-    label: "Mon profil Linkedin",
+    i18nLabel: "Linkedin_profile",
     target: "https://www.linkedin.com/in/r%C3%A9mi-pace-380a61108/",
   },
   {
-    label: "Mon CV au format PDF",
+    i18nLabel: "Curriculum_vitæ_pdf",
     target: "/cv.pdf",
-  },
-  {
-    label: "Quelques photos",
-    target: "https://toutes-les-bulles-eclatent.fr",
   },
 ];

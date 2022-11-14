@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Landing } from "./components/landing/Landing";
+import { App } from "./components/App";
 import Presentation from "./components/presentation/Presentation";
 import loglevel from "loglevel";
 import "./index.scss";
@@ -18,9 +18,4 @@ if (!container) {
 }
 
 const root = createRoot(container);
-root.render(
-  <>
-    <Landing />
-    <Presentation />
-  </>
-);
+root.render(<App />);

@@ -1,0 +1,42 @@
+@import "../mixins";
+
+.app {
+  width: 100vw;
+  height: 100vh;
+
+  padding-top: 5rem;
+  @include small-device {
+    padding-top: 1rem;
+  }
+
+  display: flex;
+  flex-direction: column;
+}
+
+.tagLine1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-size: 1.2rem;
+
+  margin-bottom: 0.8rem;
+}
+
+.tagLine2 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-size: 1rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.links {
+  margin-bottom: 2rem;
+}
+
+.filler {
+  flex-grow: 1;
+}

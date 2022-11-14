@@ -1,8 +1,12 @@
 {
-  "Landing": {
-    "Remi_Pace_developer": "Rémi Pace, développeur",
-    "Hello": "Salut !",
-    "My_name_is_remi": "Je m'appelle Rémi,",
-    "I_am_developer": "je suis développeur"
-  }
+  "Remi_Pace_developer": "Rémi Pace, développeur",
+  "Hello": "Salut",
+  "My_name_is_remi": "Je m'appelle Rémi,",
+  "I_am_developer": "je suis développeur",
+  "Github_profile": "Profil Github",
+  "Gitlab_profile": "Profil Gitlab",
+  "Linkedin_profile": "Profil Linkedin",
+  "Curriculum_vitæ_pdf": "Curriculum vitae (PDF)",
+  "A_project_idea": "Une idée de projet ?",
+  "Want_to_see_more": "Vous voulez en voir plus ?"
 }

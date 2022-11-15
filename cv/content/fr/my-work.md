@@ -8,9 +8,8 @@ Je m'applique à comprendre parfaitement les besoins de mes utilisateurs pour tr
 les plus efficaces. Je soigne les interfaces et la documentation de mes applications pour les
 rendre attractives et accessibles.
 
-Je crée des plateformes logicielles avec les technologies adaptées aux problématiques aux contraintes
-de mes projets. J'interviens sur tous les aspects du logiciel: de l'infrastructure serveur à
-l'expérience utilisateur.
+J'interviens sur tous les aspects du logiciel: de l'infrastructure serveur à l'expérience utilisateur. Je crée des 
+plateformes logicielles avec les technologies adaptées aux problématiques aux contraintes de mes projets. 
 
 Je recherche la qualité et la productivité maximale. Je mets en place des outils automatisés
 pour permettre aux développeurs de se concentrer sur l'apport de valeur ajoutée aux produits (intégration continue, analyses de code statique, outils de debug, aides au développement, ...)
@@ -28,6 +27,6 @@ Ces temps-ci je travaille avec ces technologies:
   Terraform, GNU/Linux (Debian, Ubuntu, Centos), ...
 - Bases de données: PostgresSQL, MySQL/MariaDB, MongoDB, Elasticsearch, ...
 - Languages: Javascript, Typescript, Java
-- Interfaces: React, Angular, Redux/Ngrx, Bootstrap, CSS, SASS, HTML5, ElectronJS, ...
+- Interfaces: React, Angular, Redux/Ngrx, Bootstrap, CSS, SASS, HTML5, ElectronJS, React Native...
 
-Mon dernier projet du soir est en ligne, essayez le: [https://abc-map.fr].
+Mon dernier projet du soir est en ligne, essayez-le: [https://abc-map.fr].

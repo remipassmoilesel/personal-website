@@ -5,7 +5,7 @@ import { Twemoji } from 'react-emoji-render'
 import loglevel from 'loglevel'
 
 export function LanguageSelector () {
-  const [t, i18n] = useTranslation('LanguageSelector')
+  const { i18n } = useTranslation('LanguageSelector')
 
   const handleChangeLanguage = useCallback(() => {
     const lang = i18n.language === 'fr' ? 'en' : 'fr'
@@ -13,6 +13,6 @@ export function LanguageSelector () {
   }, [i18n])
 
   return <div className={styles.container}>
-    <button onClick={handleChangeLanguage} className={styles.button}>{t('Not_your_language')} <Twemoji text={'🇬🇧/🇫🇷'}/></button>
+    <button onClick={handleChangeLanguage} className={styles.button}><Twemoji text={'🇬🇧/🇫🇷'}/></button>
   </div>
 }

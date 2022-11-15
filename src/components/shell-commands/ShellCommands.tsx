@@ -1,8 +1,8 @@
 import React, { useEffect, useMemo } from 'react'
-import Typed from 'typed.js'
+import Typed, { TypedOptions } from 'typed.js'
 import { CLI_COMMANDS } from './commands'
-import _ from 'lodash'
-import * as uuid from 'uuid'
+import shuffle from 'lodash/shuffle'
+import { v4 as uuid } from 'uuid'
 import * as styles from './ShellCommands.module.scss'
 import clsx from 'clsx'
 
@@ -12,14 +12,15 @@ interface Props {
 
 export function ShellCommands (props: Props) {
   const { className } = props
-  const typeZoneSelector = useMemo(() => `type-zone-${uuid.v4()}`, [])
+  const typeZoneSelector = useMemo(() => `type-zone-${uuid()}`, [])
 
   useEffect(() => {
-    const commands = _.shuffle(CLI_COMMANDS)
-    const options = {
+    const commands = shuffle(CLI_COMMANDS)
+    const options: TypedOptions = {
       strings: commands,
-      typeSpeed: 30,
+      typeSpeed: 40,
       showCursor: true,
+      backSpeed: 0,
       loop: true
     }
 

@@ -2,7 +2,7 @@ from: markdown+emoji
 to: pdf
 
 input-files:
-  - cv/content/fr/cv-header.md
+  - cv/content/fr/header.md
   - cv/content/fr/professional-experiences.md
   - cv/content/fr/education.md
 

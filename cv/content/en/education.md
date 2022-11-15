@@ -1,18 +1,16 @@
 ## Training
 
-### Master IC2A DCISS (Computer Development)
+### Master's degree IC2A DCISS (Computer Development)
 
-2016 - Pierre Mendès France University, Grenoble (38)
+2016 - Pierre Mendès France University, Grenoble (38), France
 
-Master's degree in computer engineering at the University of Grenoble Alpes. Mention Bien.
+Master's degree in computer engineering at the University of Grenoble Alpes, obtained with honours.
 
 [imss-www.upmf-grenoble.fr](http://www.imss-www.upmf-grenoble.fr)
 
-### Degree in Geography Planning
+### Bachelor's degree in Geography
 
-2014 - University of Rennes II, Rennes (35)
-
-Mention Fairly well.
+2014 - University of Rennes II, Rennes (35), France
 
 [univ-rennes2.fr](http://www.univ-rennes2.fr)
 

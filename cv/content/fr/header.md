@@ -1,5 +1,5 @@
-# Remi Pace
+# Rémi Pace
 
-**Developer.**
+**Ingénieur logiciel**
 
 Montpellier, [remi.pace@protonmail.com](mailto:remi.pace@protonmail.com)

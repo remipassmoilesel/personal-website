@@ -11,6 +11,8 @@
     "lint": "npm-run-all lint:*",
     "lint:code": "eslint --fix './src/**/{*.tsx,*.ts}' --max-warnings=0",
     "lint:style": "prettier --write 'src/**/*.scss'",
+    "lint:i18n": "prettier --write 'src/**/*.json'",
+    "lint:cv": "prettier --write 'cv/**/*.md'",
     "lint:packagejson": "sort-package-json",
     "bundle-analyze": "parcel build src/index.html --detailed-report --reporter @parcel/reporter-bundle-analyzer",
     "build": "npm-run-all build:clean build:type-check build:frontend build:pdf:*",

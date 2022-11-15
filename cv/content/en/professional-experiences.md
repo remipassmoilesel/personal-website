@@ -19,7 +19,9 @@ Technologies and tasks:
 - Continuous integration and strict code reviews, with Gitlab CI, Gitlab CI Kubernetes Executor
 - Simple CLI tooling for a productivity-oriented development experience
 
-### Connected Fleet Project
+Position held: lead developer.
+
+### Connected Fleet
 
 From January 2019 to January 2021, companies [Believe IT](https://believeit.fr/) and [Groupama Support and Services](https://www.groupama.com/fr/fiche/groupama-supports-et- services/https://www.groupama.com/fr/fiche/groupama-supports-et-services/)
 
@@ -40,6 +42,8 @@ Technologies and tasks:
 - On-board device (IOT) telemetry data
 - Data on the French road network [OpenStreetMap](https://fr.wikipedia.org/wiki/OpenStreetMap)
 - Data from the file [BAAC](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de- 2005-a-2019/)
+
+Position held: lead developer.
 
 ### Selene Project
 
@@ -63,6 +67,8 @@ Technologies and tasks:
 - Slack deployment bot in Python
 - Simple CLI tooling for a productivity-oriented development experience
 
+Position held: fullstack developer, devops developer.
+
 ### Bee Library Project
 
 From July 2017 to June 2018, company [Bee Buzziness](https://go.ub.stream/).
@@ -81,6 +87,8 @@ Technologies and tasks:
 - Administration of GNU/Linux Debian, CentOS systems
 - MongoDB database
 
+Position held: fullstack developer, devops developer.
+
 ### Silverpeas Project
 
 From May 2016 to September 2016, company [Silverpeas](https://www.silverpeas.com/).
@@ -93,7 +101,9 @@ Technologies and tasks:
 - XMPP, Openfire, WebRTC
 - NodeJS, JQuery, Sass, Gulp, Grunt
 - Ubuntu Server 16.04 LTS, PostgreSQL, Docker
-  -Google Chrome extension
+- Google Chrome extension
+
+Position held: intern developer.
 
 ### Previous career: Army, Navy
 

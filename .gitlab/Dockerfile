@@ -11,6 +11,7 @@ RUN curl -L https://github.com/jgm/pandoc/releases/download/2.11.2/pandoc-2.11.2
 
 RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash && apt-get install nodejs
 
-
+RUN useradd --create-home continuous-integration
+USER continuous-integration
 
 

@@ -8,19 +8,21 @@
   "scripts": {
     "start": "DEBUG=true parcel src/index.html --host 0.0.0.0",
     "watch": "tsc --noEmit -w",
+    "ci": "scripts/continuous-integration.sh",
     "lint": "npm-run-all lint:*",
     "lint:code": "eslint --fix './src/**/{*.tsx,*.ts}' --max-warnings=0",
     "lint:style": "prettier --write 'src/**/*.scss'",
     "lint:i18n": "prettier --write 'src/**/*.json'",
     "lint:cv": "prettier --write 'cv/**/*.md'",
     "lint:packagejson": "sort-package-json",
-    "bundle-analyze": "parcel build src/index.html --detailed-report --reporter @parcel/reporter-bundle-analyzer",
     "build": "npm-run-all build:clean build:type-check build:frontend build:pdf:*",
     "build:clean": "rm -rf dist",
     "build:type-check": "tsc --noEmit",
     "build:frontend": "parcel build src/index.html --detailed-report",
     "build:pdf:en": "pandoc --defaults cv/pandoc-en.yaml",
-    "build:pdf:fr": "pandoc --defaults cv/pandoc-fr.yaml"
+    "build:pdf:fr": "pandoc --defaults cv/pandoc-fr.yaml",
+    "bundle-analyze": "parcel build src/index.html --detailed-report --reporter @parcel/reporter-bundle-analyzer",
+    "docker:build-push": "./scripts/docker-build-push.sh"
   },
   "dependencies": {
     "clsx": "^1.2.1",

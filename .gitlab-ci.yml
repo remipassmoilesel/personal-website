@@ -7,4 +7,4 @@ cache:
 
 build:
   script:
-    - ./scripts/ci.sh
+    - npm run ci

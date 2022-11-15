@@ -107,8 +107,8 @@ Position held: intern developer.
 
 ### Previous career: Army, Navy
 
-Grenadier Voltigeur for the 92nd Infantry Regiment (Clermont-Ferrand, 69).
-Sailor on board the Light Frigate Furtive La Fayette (Toulon, 83).
-Permanent officer for the Watchtower of Homet (Cherbourg-Octeville, 50).
+Infantry soldier for the 92nd Infantry Regiment, Clermont-Ferrand (69), France.
+Sailor on board the Light Frigate Furtive La Fayette, Toulon (83), France.
+Permanent officer for the Watchtower of Homet, Cherbourg-Octeville (50), France.
 
 Several missions abroad, several distinctions.

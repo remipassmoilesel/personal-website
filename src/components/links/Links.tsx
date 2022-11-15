@@ -1,5 +1,5 @@
 import React from 'react'
-import { linkDefs } from './linkDefs'
+import { linkDefinitions } from './linkDefinitions'
 import * as styles from './Links.module.scss'
 import clsx from 'clsx'
 import { useTranslation } from 'react-i18next'
@@ -28,7 +28,7 @@ export function Links (props: Props) {
 
       <div className={styles.tagLine}>{t('Want_to_see_more')}</div>
 
-      {linkDefs(lang).map((link) => (
+      {linkDefinitions(lang).map((link) => (
         <div key={link.target} className={styles.link}>
           *&nbsp;
           <a href={link.target} target={'_blank'} rel="noreferrer">

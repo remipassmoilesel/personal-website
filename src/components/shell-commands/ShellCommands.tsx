@@ -26,7 +26,7 @@ export function ShellCommands (props: Props) {
 
     const typed = new Typed(`#${typeZoneSelector}`, options)
     return () => typed.destroy()
-  }, [])
+  }, [typeZoneSelector])
 
   return (
     <div className={clsx(styles.container, className)}>

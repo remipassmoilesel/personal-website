@@ -5,7 +5,7 @@ I'm a software engineer.
 Based on user needs, I create software solutions.
 
 I strive to fully understand the needs of my users to find the solutions
-the most effective. I take care of the interfaces and the documentation of my applications to make them  attractive and accessible.
+the most effective. I take care of the interfaces and the documentation of my applications to make them attractive and accessible.
 
 I create software platforms with technologies adapted to problems and constraints
 of my projects. I work on all aspects of the software: from the server infrastructure to
@@ -26,3 +26,5 @@ These days I work with these technologies:
 - Databases: PostgresSQL, MySQL/MariaDB, MongoDB, Elasticsearch, ...
 - Languages: Javascript, Typescript, Java
 - Interfaces: React, Angular, Redux/Ngrx, Bootstrap, CSS, SASS, HTML5, ElectronJS, ...
+
+My last side project is online, try it: [https://abc-map.fr].

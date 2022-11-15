@@ -21,10 +21,3 @@ Run CI:
 Full setup:
 
     $ sudo pacman -S ansible pandoc texlive-most
-
-## TODO
-
-- simplify content
-- two languages
-- Web VCS styling (Github ?) 
-- See: https://codepen.io/adnanov/pen/QKjMgb

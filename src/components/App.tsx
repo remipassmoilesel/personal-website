@@ -10,7 +10,7 @@ export function App () {
   const [t, i18n] = useTranslation('App')
 
   useEffect(() => {
-    document.title = t('Remi_Pace_developer')
+    document.title = t('Remi_Pace_software_engineer')
   }, [i18n.language])
 
   return (
@@ -24,7 +24,7 @@ export function App () {
           <div>{t('My_name_is_remi')}&nbsp;</div>
 
           <div>
-            {t('I_am_developer')}&nbsp;
+            {t('I_am_software_engineer')}&nbsp;
             <Twemoji text='👷💻' />
           </div>
         </div>

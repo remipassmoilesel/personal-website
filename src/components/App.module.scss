@@ -1,13 +1,30 @@
 @import "../mixins";
 
 .app {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  overflow: hidden;
+}
+
+.terminal {
+  width: 60vw;
+  height: 60vh;
+
+  @include small-device-portrait {
+    width: 90vmin;
+    height: 130vmin;
+  }
+
+  @include small-device-landscape {
+    width: 90vw;
+    height: 90vh;
+  }
 }
 
 .tagLine {

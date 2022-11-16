@@ -45,7 +45,7 @@ Technologies and tasks:
 
 Position held: lead developer.
 
-### Selene Project
+### Sélénée
 
 From June 2018 to January 2019, company [Agysoft](https://agysoft.marches-publics.info/).
 
@@ -69,7 +69,7 @@ Technologies and tasks:
 
 Position held: fullstack developer, devops developer.
 
-### Bee Library Project
+### Bee Library
 
 From July 2017 to June 2018, company [Bee Buzziness](https://go.ub.stream/).
 
@@ -89,7 +89,7 @@ Technologies and tasks:
 
 Position held: fullstack developer, devops developer.
 
-### Silverpeas Project
+### Silverpeas
 
 From May 2016 to September 2016, company [Silverpeas](https://www.silverpeas.com/).
 

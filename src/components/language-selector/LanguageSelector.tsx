@@ -13,6 +13,6 @@ export function LanguageSelector () {
   }, [i18n])
 
   return <div className={styles.container}>
-    <button onClick={handleChangeLanguage} className={styles.button}><Twemoji text={'🇬🇧/🇫🇷'}/></button>
+    <button onClick={handleChangeLanguage} className={styles.button}>Not your language ? <Twemoji text={'🇬🇧/🇫🇷'}/></button>
   </div>
 }

@@ -10,12 +10,12 @@ interface Props {
 
 export function Terminal (props: Props) {
   const { className, children } = props
-  const [t] = useTranslation()
+  const [t] = useTranslation('Terminal')
 
   return (
         <div className={clsx(className, styles.window)}>
             <div className={styles.topBar}>
-                <div className={styles.title}>{t('Terminal')}</div>
+                <div className={styles.title}>{t('Terminal_emulator')}</div>
 
                 <button className={clsx(styles.button, styles.close)}></button>
                 <button className={clsx(styles.button, styles.maximize)}></button>

@@ -12,5 +12,8 @@
     "Gitlab_profile": "Profil Gitlab",
     "Linkedin_profile": "Profil Linkedin",
     "Curriculum_vitæ_pdf": "Curriculum vitae (PDF)"
+  },
+  "Terminal": {
+    "Terminal_emulator": "Terminal"
   }
 }

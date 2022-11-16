@@ -32,7 +32,7 @@ export function App () {
 
         <Links className={styles.links} />
 
-        <ShellCommands />
+        <ShellCommands className={styles.shellCommands} />
 
         <div className={styles.filler}></div>
 

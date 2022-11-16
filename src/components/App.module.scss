@@ -17,8 +17,8 @@
   height: 60vh;
 
   @include small-device-portrait {
-    width: 90vmin;
-    height: 130vmin;
+    width: 90vw;
+    height: 80vh;
   }
 
   @include small-device-landscape {
@@ -32,15 +32,19 @@
   align-items: center;
   flex-wrap: wrap;
 
-  font-size: 1.2rem;
+  font-size: 1.15rem;
 
   div {
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.2rem;
   }
 }
 
 .links {
-  margin-bottom: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.shellCommands {
+  margin-bottom: 1rem;
 }
 
 .filler {

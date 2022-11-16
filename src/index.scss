@@ -7,11 +7,7 @@ body,
   font-size: 17px;
 
   @include small-device-portrait {
-    font-size: 14px;
-  }
-
-  @include small-device-landscape {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   font-family: monospace, Arial, sans-serif;

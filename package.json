@@ -15,6 +15,7 @@
     "lint:i18n": "prettier --write 'src/**/*.json'",
     "lint:cv": "prettier --write 'cv/**/*.md'",
     "lint:packagejson": "sort-package-json",
+    "lint:doc": "prettier --write README.md",
     "build": "npm-run-all build:clean build:type-check build:frontend build:cv:*",
     "build:clean": "rm -rf dist",
     "build:type-check": "tsc --noEmit",

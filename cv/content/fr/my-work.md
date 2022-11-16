@@ -1,26 +1,21 @@
 # Mon travail
 
-Je suis ingénieur logiciel: à partir de besoins utilisateurs, je crée des solutions logicielles.
+Je suis ingénieur logiciel: à partir de besoins utilisateurs, je crée des solutions logicielles fiables et scalables.
 
-Je m'applique à comprendre parfaitement les besoins de mes utilisateurs pour trouver les solutions
-les plus efficaces. Je soigne les interfaces et la documentation de mes applications pour les
-rendre attractives et accessibles.
+Je m'applique à comprendre parfaitement les besoins de mes utilisateurs pour trouver les solutions les plus efficaces. Je soigne les interfaces et la documentation de mes applications pour les rendre attractives et accessibles.
 
-J'interviens sur tous les aspects du logiciel: de l'infrastructure serveur à l'expérience utilisateur. Je crée des
-plateformes logicielles avec les technologies adaptées aux problématiques aux contraintes de mes projets.
+J'interviens sur tous les aspects du logiciel: de l'infrastructure serveur à l'expérience utilisateur. Je crée des plateformes avec des technologies adaptées aux problématiques et aux contraintes des projets.
 
-Je recherche la qualité et la productivité maximale. Je mets en place des outils automatisés
-pour permettre aux développeurs de se concentrer sur l'apport de valeur ajoutée aux produits (intégration continue,
+Je recherche la qualité et la productivité maximale. Je mets en place des outils pour permettre aux développeurs de se concentrer sur l'apport de valeur ajoutée aux produits (intégration continue,
 analyses de code statique, outils de debug, aides au développement, ...).
 
-Si nécessaire, j'accompagne la montée en compétence de mes équipiers à l'aide de bonnes pratiques de
-développement et séances de travail à plusieurs (pair coding et plus).
+Si nécessaire, j'accompagne la montée en compétence de mes équipiers à l'aide de bonnes pratiques de développement et de séances de travail à plusieurs (pair coding et plus).
 
 Ces temps-ci je travaille avec ces technologies:
 
 - Infrastructure serveur: Google Cloud Platform, Amazon Web Services, Kubernetes, Docker, Ansible,
   Terraform, GNU/Linux (Debian, Ubuntu, Centos), ...
-- Bases de données: PostgresSQL, MySQL/MariaDB, MongoDB, Elasticsearch, ...
+- Bases de données: PostgreSQL, MySQL/MariaDB, MongoDB, Elasticsearch, ...
 - Languages: Javascript, Typescript, Java
 - Interfaces: React, Angular, Redux/Ngrx, Bootstrap, CSS, SASS, HTML5, Electron.js, React Native...
 

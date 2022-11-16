@@ -2,7 +2,7 @@
 
 set -e
 
-DOCKER_TAG="registry.gitlab.com/remipassmoilesel/personal-website/personal-website:0.03"
+DOCKER_TAG="registry.gitlab.com/remipassmoilesel/personal-website/personal-website:0.04"
 
 npm ci --cache .npm-cache --prefer-offline
 npm run lint

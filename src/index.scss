@@ -13,19 +13,19 @@ body,
   font-family: monospace, Arial, sans-serif;
 }
 
-/* ===== Scrollbars ===== */
+/* == Scrollbars == */
 
 $scrollbar-width: 0.8rem;
 $scrollbar-track-color: #00000000;
 $scrollbar-thumb-color: #ffffff55;
 
-/* Firefox */
+// Firefox
 * {
   scrollbar-width: auto;
   scrollbar-color: $scrollbar-thumb-color $scrollbar-track-color;
 }
 
-/* Chrome, Edge, and Safari */
+// Chrome, Edge, and Safari
 *::-webkit-scrollbar {
   width: $scrollbar-width;
 }

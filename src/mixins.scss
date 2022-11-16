@@ -5,7 +5,7 @@
 }
 
 @mixin small-device-landscape {
-  @media (max-width: 1000px) and (orientation: landscape) {
+  @media (max-width: 900px) and (orientation: landscape) {
     @content;
   }
 }

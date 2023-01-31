@@ -34,7 +34,7 @@
     "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-emoji-render": "^1.2.4",
+    "react-emoji-render": "^2.0.1",
     "react-i18next": "^12.0.0",
     "react-markdown": "^8.0.3",
     "typed.js": "^2.0.12",

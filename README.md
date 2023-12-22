@@ -20,4 +20,4 @@ Run CI:
 
 Full setup:
 
-    $ sudo pacman -S ansible pandoc texlive-most
+    $ sudo pacman -S pandoc texlive-latex texlive-fontsextra texlive-latexextra

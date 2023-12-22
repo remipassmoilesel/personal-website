@@ -1,8 +1,20 @@
 ## Expériences professionnelles
 
+### Ingénieur logiciel @ Elwave
+
+Depuis Mars 2023, entreprise [Elwave](https://elwave.fr/)
+
+Développement de systèmes de contrôle-commande et de traitement de données:
+
+- Mise en place et administration d'un serveur de gestion de version (Gitlab)
+- Mise en place et administration d'un serveur d'intégration continue (Gitlab CI)
+- Création de plusieurs applications avec processus de qualité avancés (analyses statiques de code, tests automatisés, ...)
+
+Poste occupé: développeur fullstack.
+
 ### Projet Lila
 
-A partir de Janvier 2019, entreprise [Believe IT](https://believeit.fr/)
+De Janvier 2019 à Mars 2023, entreprise [Believe IT](https://believeit.fr/)
 
 Lila est une hôtesse d'accueil virtuelle. Lila accueille les visiteurs, répond à leurs questions,
 et notifie les membres de son entreprise.

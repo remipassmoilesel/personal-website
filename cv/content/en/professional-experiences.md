@@ -1,8 +1,20 @@
 ## Professional experiences
 
+### Software engineer @ Elwave
+
+Since March 2023, company [Elwave](https://elwave.fr/)
+
+Development of control-command and data processing systems:
+
+- Installation and administration of a version management server (Gitlab)
+- Installation and administration of a continuous integration server (Gitlab CI)
+- Creation of several applications with advanced quality processes (static code analyses, automated tests, etc.)
+
+Position held: fullstack developer.
+
 ### Project Lila
 
-From January 2019, company [Believe IT](https://believeit.fr/)
+From January 2019 to March 2023, company [Believe IT](https://believeit.fr/)
 
 Lila is a virtual hostess. Lila welcomes visitors, answers their questions,
 and notifies the members of his company.

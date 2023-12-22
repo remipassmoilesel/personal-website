@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
+set -x
 set -e
 
 export CI=true
 
-npm ci --cache .npm-cache --prefer-offline
-npm run lint
-npm run build
+pnpm config set store-dir .pnpm-store
+pnpm install
+pnpm run lint
+pnpm run build
 

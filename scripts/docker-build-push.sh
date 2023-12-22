@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 
+set -x
 set -e
 
-DOCKER_TAG="registry.gitlab.com/remipassmoilesel/personal-website/personal-website:0.12"
+export CI=true
+export DOCKER_TAG="registry.gitlab.com/remipassmoilesel/personal-website/personal-website:0.13"
 
-npm ci --cache .npm-cache --prefer-offline
-npm run lint
-npm run build
+pnpm install
+pnpm run lint
+pnpm run build
 
 docker build . -t $DOCKER_TAG
 docker push $DOCKER_TAG

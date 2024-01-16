@@ -1,6 +1,6 @@
 ## Expériences professionnelles
 
-### Ingénieur logiciel @ Elwave
+### Développeur fullstack @ Elwave
 
 Depuis Mars 2023, entreprise [Elwave](https://elwave.fr/)
 
@@ -10,9 +10,7 @@ Développement de systèmes de contrôle-commande et de traitement de données:
 - Mise en place et administration d'un serveur d'intégration continue (Gitlab CI)
 - Création de plusieurs applications avec processus de qualité avancés (analyses statiques de code, tests automatisés, ...)
 
-Poste occupé: développeur fullstack.
-
-### Projet Lila
+### Lead developer @ Believe IT / Brain New, projet "Lila"
 
 De Janvier 2019 à Mars 2023, entreprise [Believe IT](https://believeit.fr/)
 
@@ -31,9 +29,7 @@ Technologies et tâches:
 - Intégration continue et revues de code strictes, avec Gitlab CI, Gitlab CI Kubernetes Executor
 - Outillage CLI simple pour une expérience de développement orientée productivité
 
-Poste occupé: responsable du développement (lead developer).
-
-### Projet Flotte Connectée
+### Lead developer @ Believe IT / Brain New, projet "Flotte connectée"
 
 De Janvier 2019 à Janvier 2021, entreprises [Believe IT](https://believeit.fr/) et [Groupama Support et Services](https://www.groupama.com/fr/fiche/groupama-supports-et-services/https://www.groupama.com/fr/fiche/groupama-supports-et-services/)
 
@@ -55,9 +51,7 @@ Technologies et tâches:
 - Données sur le réseau routier français [OpenStreetMap](https://fr.wikipedia.org/wiki/OpenStreetMap)
 - Données du fichier [BAAC](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de-2005-a-2019/)
 
-Poste occupé: responsable du développement (lead developer).
-
-### Projet Sélénée
+### Développeur fullstack @ Agysoft, projet "Sélénée"
 
 De juin 2018 à Janvier 2019, entreprise [Agysoft](https://agysoft.marches-publics.info/).
 
@@ -79,9 +73,7 @@ Technologies et tâches:
 - Bot de déploiement Slack en Python
 - Outillage CLI simple pour une expérience de développement orientée productivité
 
-Poste occupé: développeur fullstack, développeur devops.
-
-### Projet Bee Library
+### Développeur fullstack @ Bee Buzziness, projet "Bee Library"
 
 De juillet 2017 à Juin 2018, entreprise [Bee Buzziness](https://go.ub.stream/).
 
@@ -99,9 +91,7 @@ Technologies et tâches:
 - Administration de systèmes GNU/Linux Debian, CentOS
 - Base de données MongoDB
 
-Poste occupé: développeur fullstack, développeur devops.
-
-### Projet Silverpeas
+### Développeur fullstack (stagiaire) @ Silverpeas
 
 De mai 2016 à septembre 2016, entreprise [Silverpeas](https://www.silverpeas.com/).
 
@@ -114,8 +104,6 @@ Technologies et tâches:
 - NodeJS, JQuery, Sass, Gulp, Grunt
 - Ubuntu Server 16.04 LTS, PostgreSQL, Docker
 - Extension Google Chrome
-
-Poste occupé: stagiaire.
 
 ### Précédente carrière: Armée de Terre, Marine Nationale
 

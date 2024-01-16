@@ -1,6 +1,6 @@
 ## Professional experiences
 
-### Software engineer @ Elwave
+### Full Stack Developer @ Elwave
 
 Since March 2023, company [Elwave](https://elwave.fr/)
 
@@ -10,9 +10,7 @@ Development of control-command and data processing systems:
 - Installation and administration of a continuous integration server (Gitlab CI)
 - Creation of several applications with advanced quality processes (static code analyses, automated tests, etc.)
 
-Position held: fullstack developer.
-
-### Project Lila
+### Lead developer @ Believe IT / Brain New, project "Lila"
 
 From January 2019 to March 2023, company [Believe IT](https://believeit.fr/)
 
@@ -31,9 +29,7 @@ Technologies and tasks:
 - Continuous integration and strict code reviews, with Gitlab CI, Gitlab CI Kubernetes Executor
 - Simple CLI tooling for a productivity-oriented development experience
 
-Position held: lead developer.
-
-### Connected Fleet
+### Lead developer @ Believe IT / Brain New, project "Connected Fleet"
 
 From January 2019 to January 2021, companies [Believe IT](https://believeit.fr/) and [Groupama Support and Services](https://www.groupama.com/fr/fiche/groupama-supports-et- services/https://www.groupama.com/fr/fiche/groupama-supports-et-services/)
 
@@ -55,9 +51,7 @@ Technologies and tasks:
 - Data on the French road network [OpenStreetMap](https://fr.wikipedia.org/wiki/OpenStreetMap)
 - Data from the file [BAAC](https://www.data.gouv.fr/fr/datasets/bases-de-donnees-annuelles-des-accidents-corporels-de-la-circulation-routiere-annees-de- 2005-a-2019/)
 
-Position held: lead developer.
-
-### Sélénée
+### Full Stack Developer @ Agysoft, project "Sélénée"
 
 From June 2018 to January 2019, company [Agysoft](https://agysoft.marches-publics.info/).
 
@@ -79,9 +73,7 @@ Technologies and tasks:
 - Slack deployment bot in Python
 - Simple CLI tooling for a productivity-oriented development experience
 
-Position held: fullstack developer, devops developer.
-
-### Bee Library
+### Full Stack Developer @ Bee Buzziness, project "Bee Library"
 
 From July 2017 to June 2018, company [Bee Buzziness](https://go.ub.stream/).
 
@@ -99,9 +91,7 @@ Technologies and tasks:
 - Administration of GNU/Linux Debian, CentOS systems
 - MongoDB database
 
-Position held: fullstack developer, devops developer.
-
-### Silverpeas
+### Full Stack Developer (intern) @ Silverpeas
 
 From May 2016 to September 2016, company [Silverpeas](https://www.silverpeas.com/).
 
@@ -114,8 +104,6 @@ Technologies and tasks:
 - NodeJS, JQuery, Sass, Gulp, Grunt
 - Ubuntu Server 16.04 LTS, PostgreSQL, Docker
 - Google Chrome extension
-
-Position held: intern developer.
 
 ### Previous career: Army, Navy
 

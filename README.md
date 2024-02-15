@@ -20,4 +20,4 @@ Run CI:
 
 Full setup:
 
-    $ sudo pacman -S pandoc texlive-latex texlive-fontsextra texlive-latexextra
+    $ sudo pacman -S pandoc wkhtmltopdf-static

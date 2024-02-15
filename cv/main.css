@@ -1,0 +1,24 @@
+html,
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 0 !important;
+}
+
+h1 {
+  text-decoration: none;
+  margin: 1rem 0 !important;
+}
+
+h2 {
+  margin: 2.5rem 0 1.8rem 0 !important;
+  border-bottom: 1px solid gray;
+}
+
+h3 {
+  margin: 2rem 0 1.8rem 0 !important;
+}
+
+ul {
+  padding-left: 1.6rem !important;
+}

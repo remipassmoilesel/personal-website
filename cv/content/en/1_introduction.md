@@ -1,4 +1,4 @@
-# My work
+## My work
 
 I am a software engineer: from user needs, I create reliable and scalable software solutions.
 
@@ -13,10 +13,9 @@ If necessary, I support my team members' skills development using good developme
 
 These days I work with these technologies:
 
-- Server infrastructure: Google Cloud Platform, Amazon Web Services, Kubernetes, Docker, Ansible,
-  Terraform, GNU/Linux (Debian, Ubuntu, Centos), ...
-- Databases: PostgreSQL, MySQL/MariaDB, MongoDB, Elasticsearch, ...
+- Server infrastructure: Google Cloud Platform, Amazon Web Services, Kubernetes, Docker, Ansible, GNU/Linux, ...
+- Databases: PostgreSQL, MySQL/MariaDB, MongoDB, Elasticsearch, SQLite ...
 - Languages: Javascript, Typescript, Java
-- Interfaces: React, Angular, Redux/Ngrx, Bootstrap, CSS, SASS, HTML5, Electron.js, React Native...
+- Interfaces: React, Redux, Bootstrap, CSS, SASS, HTML5, Electron.js, React Native...
 
-My last evening project is online, try it: [https://abc-map.fr](https://abc-map.fr).
+My last evening project is online, try it: [https://abc-map.fr](https://abc-map.fr). This is a little glimpse of what I can do.

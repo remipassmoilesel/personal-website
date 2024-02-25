@@ -4,10 +4,11 @@ ENV DEBIAN_FRONTEND="noninteractive";
 
 RUN apt-get update && apt-get install -y curl build-essential
 
-RUN curl -L https://github.com/jgm/pandoc/releases/download/2.11.2/pandoc-2.11.2-1-amd64.deb -o /tmp/pandoc.deb \
+RUN curl -L https://github.com/jgm/pandoc/releases/download/3.1.12.1/pandoc-3.1.12.1-1-amd64.deb -o /tmp/pandoc.deb \
       && dpkg -i /tmp/pandoc.deb \
-      && rm -rf /tmp/pandoc.deb \
-      && apt-get install -y texlive texlive-fonts-extra
+      && rm -rf /tmp/pandoc.deb
+
+RUN apt-get update && apt-get install -y wkhtmltopdf
 
 # See https://deb.nodesource.com/
 RUN apt-get update && apt-get install -y ca-certificates curl gnupg && \

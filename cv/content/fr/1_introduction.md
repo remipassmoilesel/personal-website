@@ -1,6 +1,6 @@
-# Mon travail
+## Mon travail
 
-Je suis ingénieur logiciel: à partir de besoins utilisateurs, je crée des solutions logicielles fiables et scalables.
+Je suis ingénieur logiciel: à partir de besoins utilisateurs, je crée des solutions logicielles fiables et performantes.
 
 Je m'applique à comprendre parfaitement les besoins de mes utilisateurs pour trouver les solutions les plus efficaces. Je soigne les interfaces et la documentation de mes applications pour les rendre attractives et accessibles.
 
@@ -13,10 +13,9 @@ Si nécessaire, j'accompagne la montée en compétence de mes équipiers à l'ai
 
 Ces temps-ci je travaille avec ces technologies:
 
-- Infrastructure serveur: Google Cloud Platform, Amazon Web Services, Kubernetes, Docker, Ansible,
-  Terraform, GNU/Linux (Debian, Ubuntu, Centos), ...
-- Bases de données: PostgreSQL, MySQL/MariaDB, MongoDB, Elasticsearch, ...
+- Infrastructure serveur: Google Cloud Platform, Amazon Web Services, Kubernetes, Docker, Ansible, GNU/Linux, ...
+- Bases de données: PostgreSQL, MySQL/MariaDB, MongoDB, Elasticsearch, SQLite ...
 - Languages: Javascript, Typescript, Java
-- Interfaces: React, Angular, Redux/Ngrx, Bootstrap, CSS, SASS, HTML5, Electron.js, React Native...
+- Interfaces: React, Redux, Bootstrap, CSS, SASS, HTML5, Electron.js, React Native...
 
-Mon dernier projet du soir est en ligne, essayez-le: [https://abc-map.fr](https://abc-map.fr).
+Mon dernier projet du soir est en ligne, essayez-le: [https://abc-map.fr](https://abc-map.fr). C'est un petit aperçu de ce que je sais faire.

@@ -43,7 +43,7 @@ répondre à des besoins particuliers un opérateur humain prend le relai en vis
 <u>Technologies utilisées:</u>
 
 - Node.js, Typescript, Express, MongoDB, Redis, Electron, Yarn, Lerna, Dialogflow V2 API, Twilio (Audio/Vidéo, SMS)
-- HTML5, Sass, React, Redux, React Router, Bootstrap, RxJS, Formik, Yup, ThreeJS, RxJS, JWT, WebRTC, Socket IO, Figma
+- HTML5, Sass, React, Redux, React Router, Bootstrap, RxJS, Formik, Yup, ThreeJS, JWT, WebRTC, Socket IO, Figma
 - Git, Gitlab, Gitlab CI, ESLint, Mocha, Jest, Sinon.JS, Istanbul, Cypress, Webpack, Dependency Cruiser, Electron Builder
 - Ubuntu, Alpine Linux, Kubernetes, Helm, Google Cloud, Docker, Docker Compose, SSH, OpenSSL, Bash, git-crypt, Datadog, NGINX
 - React Native, Expo EAS

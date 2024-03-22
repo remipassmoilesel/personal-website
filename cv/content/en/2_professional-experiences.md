@@ -43,7 +43,7 @@ or for specific needs, a human operator can accompany visitors by videoconferenc
 <u>Technologies used:</u>
 
 - Node.js, Typescript, Express, MongoDB, Redis, Electron, Yarn, Lerna, Dialogflow V2 API, Twilio (Audio/Video, SMS)
-- HTML5, Sass, React, Redux, React Router, Bootstrap, RxJS, Formik, Yup, ThreeJS, RxJS, JWT, WebRTC, Socket IO, Figma
+- HTML5, Sass, React, Redux, React Router, Bootstrap, RxJS, Formik, Yup, ThreeJS, JWT, WebRTC, Socket IO, Figma
 - Git, Gitlab, Gitlab CI, ESLint, Mocha, Jest, Autre.JS, Istanbul, Cypress, Webpack, Dependency Cruiser, Electron Builder
 - Ubuntu, Alpine Linux, Kubernetes, Helm, Google Cloud, Docker, Docker Compose, SSH, OpenSSL, Bash, git-crypt, Datadog, NGINX
 - React Native, EAS Expo

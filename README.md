@@ -18,6 +18,6 @@ Run CI:
 
     $ ./ci.sh
 
-Full setup:
+Full setup on Arch with [yay](https://github.com/Jguer/yay):
 
-    $ sudo pacman -S pandoc wkhtmltopdf-static
+    $ yay -S pandoc wkhtmltopdf-static

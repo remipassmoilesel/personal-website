@@ -8,8 +8,9 @@ See: [remi-pace.fr](https://remi-pace.fr)
 
 Development:
 
-    $ npm install
-    $ npm start
+    $ corepack install
+    $ pnpm install
+    $ pnpm run start
     $ npm run watch # For typecheck
 
 Then go to [http://localhost:1234/](http://localhost:1234/)

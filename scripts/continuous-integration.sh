@@ -5,7 +5,7 @@ set -e
 
 export CI=true
 
-corepack install
+corepack enable
 pnpm config set store-dir .pnpm-store
 
 pnpm install

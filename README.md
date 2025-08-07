@@ -6,10 +6,18 @@
 
 See: [remi-pace.fr](https://remi-pace.fr)
 
+Fedora dependencies:
+
+    $ sudo dnf install pandoc wkhtmltopdf
+
+Arch Linux dependencies:
+
+    $ yay -S pandoc wkhtmltopdf-static
+
+Format:
+
+    $ pnpm run format
+
 Run CI:
 
     $ ./scripts/continuous-integration.sh
-
-Full setup on Arch with [yay](https://github.com/Jguer/yay):
-
-    $ yay -S pandoc wkhtmltopdf-static

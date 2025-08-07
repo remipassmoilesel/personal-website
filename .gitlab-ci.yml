@@ -7,4 +7,4 @@ cache:
 
 build:
   script:
-    - pnpm run ci
+    - ./scripts/continuous-integration.sh

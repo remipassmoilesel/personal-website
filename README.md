@@ -6,18 +6,9 @@
 
 See: [remi-pace.fr](https://remi-pace.fr)
 
-Development:
-
-    $ corepack install
-    $ pnpm install
-    $ pnpm run start
-    $ npm run watch # For typecheck
-
-Then go to [http://localhost:1234/](http://localhost:1234/)
-
 Run CI:
 
-    $ ./ci.sh
+    $ ./scripts/continuous-integration.sh
 
 Full setup on Arch with [yay](https://github.com/Jguer/yay):
 

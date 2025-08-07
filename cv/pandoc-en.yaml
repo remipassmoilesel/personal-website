@@ -11,7 +11,7 @@ input-files:
   - cv/content/en/3_education.md
   - cv/content/en/4_more.md
 
-output-file: dist/cv-en.pdf
+output-file: public/cv-en.pdf
 
 pdf-engine: wkhtmltopdf
 

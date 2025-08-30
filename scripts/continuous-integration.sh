@@ -4,12 +4,17 @@ set -x
 set -e
 
 export CI=true
-export XDG_RUNTIME_DIR=/tmp/personal-website-runtime-dir
 
+corepack enable
 pnpm config set store-dir .pnpm-store
+
 pnpm install
-pnpm run lint
-pnpm run build
+pnpm run format
+pnpm run build:cv:en
+pnpm run build:cv:fr
+
+# If this command fail, you should format and commit the result.
+git diff --exit-code
 
 set +x
 echo "Done 🥳"

@@ -12,8 +12,8 @@
 - Création de plusieurs applications de bureau:
   - avec processus de qualité avancés (analyses statiques de code, tests automatisés, ...)
   - avec apparence soignée: implémentation de maquettes UI/UX, thèmes sombres et clairs, ...
-- Plusieurs représentations de données, affichages communs ou sur mesure 
-- Représentations cartographiques de données 
+- Plusieurs représentations de données, affichages communs ou sur mesure
+- Représentations cartographiques de données
 
 <u>Technologies utilisées:</u>
 

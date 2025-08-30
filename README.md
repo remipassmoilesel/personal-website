@@ -1,23 +1,23 @@
 # Personal website
 
-<a href="https://gitlab.com/remipassmoilesel/personal-website/-/commits/master">
+<a href="https://gitlab.com/remipassmoilesel/personal-website/-/commits/main">
 <img alt="pipeline status" src="https://gitlab.com/remipassmoilesel/personal-website/badges/master/pipeline.svg" />
 </a>
 
 See: [remi-pace.fr](https://remi-pace.fr)
 
-Development:
+Fedora dependencies:
 
-    $ npm install
-    $ npm start
-    $ npm run watch # For typecheck
+    $ sudo dnf install pandoc wkhtmltopdf
 
-Then go to [http://localhost:1234/](http://localhost:1234/)
+Arch Linux dependencies:
+
+    $ yay -S pandoc wkhtmltopdf-static
+
+Format:
+
+    $ pnpm run format
 
 Run CI:
 
-    $ ./ci.sh
-
-Full setup on Arch with [yay](https://github.com/Jguer/yay):
-
-    $ yay -S pandoc wkhtmltopdf-static
+    $ ./scripts/continuous-integration.sh

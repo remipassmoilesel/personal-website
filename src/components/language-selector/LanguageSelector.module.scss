@@ -1,0 +1,19 @@
+@import "src/mixins";
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+
+  width: 100%;
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: white;
+
+  font-size: 0.8rem;
+}

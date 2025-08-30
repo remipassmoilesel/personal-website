@@ -1,0 +1,25 @@
+from: markdown+emoji
+to: pdf
+
+standalone: true
+css: cv/main.css
+
+metadata:
+  title: Rémi Pace
+
+input-files:
+  - cv/content/fr/0_header.md
+  - cv/content/fr/1_introduction.md
+  - cv/content/fr/2_professional-experiences.md
+  - cv/content/fr/3_education.md
+  - cv/content/en/4_more.md
+
+output-file: dist/cv-fr.pdf
+
+pdf-engine: wkhtmltopdf
+
+variables:
+  margin-top: 0.8cm
+  margin-right: 1.5cm
+  margin-bottom: 0.8cm
+  margin-left: 1.5cm

@@ -1,0 +1,41 @@
+@import "../node_modules/normalize.css/normalize.css";
+@import "mixins";
+
+html,
+body,
+#root {
+  font-size: 17px;
+
+  @include small-device-portrait {
+    font-size: 13px;
+  }
+
+  font-family: monospace, Arial, sans-serif;
+}
+
+/* == Scrollbars == */
+
+$scrollbar-width: 0.8rem;
+$scrollbar-track-color: #00000000;
+$scrollbar-thumb-color: #ffffff55;
+
+// Firefox
+* {
+  scrollbar-width: auto;
+  scrollbar-color: $scrollbar-thumb-color $scrollbar-track-color;
+}
+
+// Chrome, Edge, and Safari
+*::-webkit-scrollbar {
+  width: $scrollbar-width;
+}
+
+*::-webkit-scrollbar-track {
+  background: $scrollbar-track-color;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-thumb-color;
+  border-radius: $scrollbar-width;
+  border: 0.1rem solid $scrollbar-thumb-color;
+}

@@ -1,0 +1,9 @@
+.cache
+.idea
+.npm-cache
+.parcel-cache
+.pnpm-store
+dist
+kube
+node_modules
+parcel-bundle-reports

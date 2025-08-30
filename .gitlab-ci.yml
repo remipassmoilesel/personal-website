@@ -1,0 +1,10 @@
+image: registry.gitlab.com/remipassmoilesel/personal-website/build-image:0.10
+
+cache:
+  paths:
+    - .pnpm-store
+    - node_modules/
+
+build:
+  script:
+    - pnpm run ci

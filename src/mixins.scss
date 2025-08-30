@@ -1,0 +1,11 @@
+@mixin small-device-portrait {
+  @media (max-width: 640px) and (orientation: portrait) {
+    @content;
+  }
+}
+
+@mixin small-device-landscape {
+  @media (max-width: 900px) and (orientation: landscape) {
+    @content;
+  }
+}

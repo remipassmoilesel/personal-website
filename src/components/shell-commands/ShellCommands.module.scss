@@ -1,0 +1,23 @@
+.container {
+  height: 3.5rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  color: mediumpurple;
+}
+
+.host {
+  color: darkseagreen;
+}
+
+.pwd {
+  color: cyan;
+}
+
+.prompt {
+  display: flex;
+  margin: 0.3rem 0;
+}

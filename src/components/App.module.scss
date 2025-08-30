@@ -1,0 +1,50 @@
+@import "../mixins";
+
+.app {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminal {
+  width: 60vw;
+  height: 60vh;
+
+  @include small-device-portrait {
+    width: 90vw;
+    height: 60vh;
+  }
+
+  @include small-device-landscape {
+    width: 80vw;
+    height: 70vh;
+  }
+}
+
+.tagLine {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  font-size: 1.15rem;
+
+  div {
+    margin-bottom: 0.2rem;
+  }
+}
+
+.links {
+  margin: 2rem 0 1rem 0;
+}
+
+.shellCommands {
+  margin-bottom: 1rem;
+}
+
+.filler {
+  flex-grow: 1;
+}

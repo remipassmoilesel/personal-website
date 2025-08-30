@@ -1,0 +1,19 @@
+{
+  "App": {
+    "Remi_Pace_software_engineer": "Rémi Pace, développeur",
+    "Hello": "Salut",
+    "My_name_is_remi": "Je m'appelle Rémi,",
+    "I_am_software_engineer": "je suis ingénieur logiciel"
+  },
+  "Links": {
+    "A_project_idea": "Une idée de projet ?",
+    "Want_to_see_more": "Vous voulez en voir plus ?",
+    "Github_profile": "Profil Github",
+    "Gitlab_profile": "Profil Gitlab",
+    "Linkedin_profile": "Profil Linkedin",
+    "Curriculum_vitæ_pdf": "Curriculum vitae (PDF)"
+  },
+  "Terminal": {
+    "Terminal_emulator": "Terminal"
+  }
+}

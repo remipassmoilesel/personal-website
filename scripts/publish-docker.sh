@@ -4,7 +4,7 @@ set -x
 set -e
 
 export CI=true
-export DOCKER_TAG="registry.gitlab.com/remipassmoilesel/personal-website/personal-website:0.19"
+export DOCKER_TAG="registry.gitlab.com/remipassmoilesel/personal-website/personal-website:0.20"
 
 pnpm install
 pnpm run build:cv:en
